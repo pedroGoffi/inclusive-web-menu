@@ -18,7 +18,7 @@ Um menu de acessibilidade moderno, funcional e elegante para sites. Este projeto
 ### 1. Instale os arquivos necessários  
 Clone o repositório:  
 ```bash
-git clone https://github.com/seu-usuario/a11y-hamburger-menu.git
+git clone pedroGoffi/inclusive-web-menu
 ```  
 
 ### 2. Inclua os arquivos no seu projeto  
