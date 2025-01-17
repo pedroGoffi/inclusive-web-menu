@@ -1,0 +1,34 @@
+<!-- mude aqui o caminho -->
+<link rel="stylesheet" href="a11y-hamburger-menu.css">
+
+<!-- Accessibility Hamburger Menu -->
+<div id="a11y-accessibility-hamburger-menu" class="a11y-menu">
+    <div id="a11y-accessibility-hamburger-menu">
+      <button class="hamburger-icon" onclick="toggleA11yMenu()">
+        <span id="accessibility-icon">A</span> <!-- Letra "A" para acessibilidade -->
+      </button>
+    </div>
+
+    <div id="a11y-menu-options" class="a11y-menu-options">
+      <ul>
+        <li><a href="#" onclick="changeContrast()">Alterar Contraste</a></li>
+        <li><a href="#" onclick="increaseTextSize()">Aumentar Tamanho do Texto</a></li>
+        <li><a href="#" onclick="decreaseTextSize()">Diminuir Tamanho do Texto</a></li>
+        <li><a href="#" onclick="increaseTextSpacing()">Aumentar Espaçamento do Texto</a></li>
+        <li><a href="#" onclick="decreaseTextSpacing()">Diminuir Espaçamento do Texto</a></li>        
+        <li><a href="#" onclick="resetSettings()">Restaurar Configurações</a></li>
+      </ul>
+      <ul>        
+        <li><a href="#" onclick="toggleTextToSpeech()">Ler Texto</a></li>
+        <li><a href="#" onclick="zoomIn()">Aumentar Zoom</a></li>
+        <li><a href="#" onclick="zoomOut()">Diminuir Zoom</a></li>
+        <li><a href="#" onclick="toggleAnimations()">Desligar Animações</a></li>
+        <li><a href="#" onclick="toggleScreenReaderMode()">Modo Leitura Simplificada</a></li>
+        <li><a href="#" onclick="changeFont()">Fonte Amigável para Dislexia</a></li>
+        <li><a href="#" onclick="highlightFocus()">Destacar Foco</a></li>
+      </ul>
+    </div>
+</div>
+
+<!-- mude aqui o caminho -->
+<script src="a11y-hamburger-menu.js"></script>

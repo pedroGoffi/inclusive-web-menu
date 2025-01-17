@@ -1,0 +1,98 @@
+/* Font for Dyslexia-friendly option */
+@import url('https://fonts.googleapis.com/css2?family=Dyslexie&display=swap');
+
+/* Accessibility menu styles */
+.a11y-menu {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.hamburger-icon {
+    background-color: #0d00ff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.a11y-menu-options {
+    display: none;        
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.a11y-menu-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.a11y-menu-options li {
+    margin: 0;
+}
+
+.a11y-menu-options a {
+    color: white;
+    text-decoration: none;
+    font-size:      14px;
+    padding:        0.5rem;
+    border-radius:  5px;
+    display: block;
+}
+
+.a11y-menu-options a:hover {
+    background-color: #555;
+}
+
+/* Highlighting focused elements */
+:focus {
+    outline: 2px solid #ff0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Disable animations */
+.no-animation * {
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Dyslexia-friendly font */
+.screen-reader-friendly {
+    font-family: 'Dyslexie', sans-serif;
+}
+
+/* High-contrast mode */
+.high-contrast {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Increased text spacing */
+.high-spacing {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+/* Zoom-in effect */
+.zoom-in {
+    transform: scale(1.2);
+}
+
+/* Zoom-out effect */
+.zoom-out {
+    transform: scale(0.8);
+}
+
+/* Font family toggle for dyslexia-friendly font */
+body {
+    font-family: Arial, sans-serif;
+}
