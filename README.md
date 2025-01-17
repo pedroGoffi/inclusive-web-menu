@@ -58,6 +58,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um _issue_ ou en
 Este projeto está licenciado sob a [MIT License](./LICENSE).  
 
 ## Créditos 🌟  
-Desenvolvido com ❤️ por [Seu Nome](https://linkedin.com/in/seu-perfil).  
+Desenvolvido com ❤️ por [Pedro Henrique Goffi de Paulo](https://www.linkedin.com/in/pedro-henrique-goffi-de-paulo-bb0426230/).  
 
 ## Vamos tornar a web mais acessível juntos! 🌍  
